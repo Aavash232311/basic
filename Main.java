@@ -33,7 +33,7 @@ class Main {
     public static double model(double[] a, double[] w) {
         double output = 0;
         for (int i = 0; i < 4; i++) {
-            output += a[i] + w[i];
+            output += a[i] * w[i];
         }
         return output;
     }
